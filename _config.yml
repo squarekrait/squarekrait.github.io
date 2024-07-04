@@ -1,0 +1,27 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      pygments
+
+plugins:          [jekyll-paginate, jekyll-gist, jekyll-seo-tag, jekyll-sitemap]
+paginate:         5
+paginate_path:    "page:num"
+
+# Permalinks
+permalink:        pretty
+# relative_permalinks: true
+
+# Setup
+title:            square krait's blog
+tagline:          'perils of systems programming'
+description:      'Perils of systems programming.'
+url:              'https://squarekrait.com'
+
+author:
+  name:           'squarekrait'
+
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/poole/hyde
